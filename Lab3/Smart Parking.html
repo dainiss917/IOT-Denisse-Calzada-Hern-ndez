@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SMART PARKING</h1>
+    <div class="panel">
+        <div class="dato" style="color: aliceblue;" >
+            total spaces:
+            <strong id="total">0</strong>
+        </div>
+
+        <div class="dato" style="color: aliceblue;">
+            occupied:
+            <strong id="ocupados">0</strong>
+        </div>
+
+        <div class="dato" style="color: aliceblue;">
+            available:
+            <strong id="disponibles">0</strong>
+        </div>
+
+        <div class="dato" style="color: aliceblue;">
+            percentaje:
+            <strong id="porcentaje">0%</strong>
+        </div>
+    </div>
+
+    <p style="color: aliceblue;">green = available | red = occupied</p>
+
+    <div id="parking">
+        <div class="terreno">
+            <div class="lateral" id="izquierda"></div>
+            <div class="centro" id="centro"></div>
+            <div class="lateral" id="derecha"></div>
+        </div>
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>
